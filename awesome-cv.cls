@@ -94,7 +94,7 @@
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
 % Configure a directory location for fonts(default: 'fonts/')
-\newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
+\newcommand*{\fontdir}[1][./fonts/]{\def\@fontdir{#1}}
 \fontdir
 
 
@@ -145,7 +145,7 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{black}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -160,8 +160,6 @@
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% Set the FontAwesome font to be up-to-date.
-\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
