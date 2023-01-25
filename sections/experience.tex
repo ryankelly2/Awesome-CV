@@ -11,24 +11,44 @@
 
 %---------------------------------------------------------
 \cventry
-  {Software Engineer} % Job titleddf
+  {Sr. Software Engineer} % Job title
   {Philips Respironics} % Organization
   {Pittsburgh, Pennsylvania} % Location
-  {Aug. 2017 - Present} % Date(s)
+  {March 2022 - Present} % Date(s)
   {
     \begin{cvitems}
     \item
     {
-      \href{https://www.usa.philips.com/healthcare/product/HC0055500/trilogy-evo-portable-hospital-to-home-ventilator}{\color{RoyalBlue}Trilogy Evo}
+      \href{https://www.usa.philips.com/healthcare/product/HC0055500/trilogy-evo-portable-hospital-to-home-ventilator}{\color{RoyalBlue}Trilogy Evo/EV300}
       \begin{itemize}
-        \item Applied agile methodologies alongside a group of 10 team members to develop, test, and deploy software for a multi-CPU Class C ventilator.
-        \item Created a serial data passthrough mechanism to simultaneously support proprietary communication and a transcutaneous CO2 accessory.
+        \item Created a custom layer and set of recipes to facilitate a migration to a Yocto based custom Linux distribution.
+        \item Led a team of 5 members to release software in accordance with ISO 62304 for a class C ventilator.
+        \item Refactored cryptographic library to leverage dependency injection to increase testability and reduce coupling.
+        \item Facilitated and hosted agile ceremonies.
+      \end{itemize}
+    }
+    \end{cvitems}
+  }
+
+\cventry
+  {Software Engineer} % Job title
+  {Philips Respironics} % Organization
+  {Pittsburgh, Pennsylvania} % Location
+  {August 2017 - March 2022} % Date(s)
+  {
+    \begin{cvitems}
+    \item
+    {
+      \href{https://www.usa.philips.com/healthcare/product/HC0055500/trilogy-evo-portable-hospital-to-home-ventilator}{\color{RoyalBlue}Trilogy Evo/EV300}
+      \begin{itemize}
+        \item Worked alongside a group of 10 team members to develop, test, and deploy software for a multi-processor class C ventilator.
+        \item Created a serial data passthrough mechanism to simultaneously support proprietary communication and a CO2 monitor.
         \item Designed and implemented an authentication mechanism for proprietary serial communication.
         \item Integrated third-party touchscreen driver in custom Linux BSP.
         \item Implemented PNG-based screenshot mechanism to support automated testing.
-        \item Designed cryptographic hardware wrapper mechanism and derived cryptographic workflows (e.g., AES, ESCDA, ECDH).
+        \item Designed cryptographic hardware wrapper mechanism and derived cryptographic workflows.
         \item Maintained CI/CD job configurations and adopted Coverity static code analysis.
-        \item Designed an authenticated and encrypted software upgrade scheme using the ESDSA and AES algorithms.
+        \item Designed an authenticated and encrypted software upgrade scheme using the ECDSA and AES algorithms.
         \item Automated eMMC image creation with Bash script for quick functional circuit test turnaround.
       \end{itemize}
     }
@@ -44,10 +64,10 @@
     {
       {Manufacturing Support Camera Capture Project}
       \begin{itemize}
-        \item Designed cryptographic signing mechanism using a certificate chain of trust and ESDSA.
+        \item Designed cryptographic signing mechanism using a certificate chain of trust and ECDSA.
         \item Explored and implemented IoC paradigms using a dependency injection container.
-        \item Implemented ECDSA authentication mechanism using Bouncy Castle.
         \item Leveraged DirectShow to interface with the settings and video stream of a document scanner.
+        \item Added functionality to interact with an SQLite database to support local information caching.
       \end{itemize}
     }
     \item
@@ -60,18 +80,5 @@
     }
     \end{cvitems}
   }
-
-\cventry
-  {Computer Technician} % Job title
-  {Moniteau School District} % Organization
-  {West Sunbury, Pennsylvania} % Location
-  {May 2016 - Aug. 2017} % Date(s)
-  {
-    \begin{cvitems}
-      \item Worked alongside a teammate to prioritize, triage, and resolve computer equipment issues.
-      \item Designed and implemented C\# application to automate user profile deletion on Windows.
-    \end{cvitems}
-  }
-
 %---------------------------------------------------------
 \end{cventries}
